@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2KZmNS0GKr3+WwWpf1gml9wkVwTr9TSxKwCaIPP7xtdb6MGAJ1aqMBwdTVbJ177Hzm+VtpAerp9jjBn0xWma6w==",
+  "success": true,
+  "projectFilePath": "/Users/praveenr/Documents/Github/monogame-tutorial/Spaceship/Spaceship/Spaceship.csproj",
+  "expectedPackageFiles": [
+    "/Users/praveenr/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/Users/praveenr/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

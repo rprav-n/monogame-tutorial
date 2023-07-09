@@ -1,4 +1,29 @@
 ﻿<Properties StartupConfiguration="{4BF3B2F6-4A75-4A1A-8318-5ED4164A35DD}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShootingGallery/Game1.cs">
+    <Files>
+      <File FileName="ShootingGallery/Game1.cs" Line="33" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShootingGallery" expanded="True">
+            <Node name="ShootingGallery" expanded="True" selected="True">
+              <Node name="Content" expanded="True">
+                <Node name="bin" expanded="True">
+                  <Node name="DesktopGL" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ShootingGallery FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ShootingGallery PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

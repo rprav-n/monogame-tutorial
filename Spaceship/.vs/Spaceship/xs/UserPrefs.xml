@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{920403E4-7576-49E7-ABDD-5731BBD334B6}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Spaceship/Ship.cs">
+    <Files>
+      <File FileName="Spaceship/Game1.cs" Line="54" Column="25" />
+      <File FileName="Spaceship/Ship.cs" Line="14" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Spaceship" expanded="True">
+            <Node name="Spaceship" expanded="True">
+              <Node name="Content" expanded="True" />
+              <Node name="Ship.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Spaceship PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
