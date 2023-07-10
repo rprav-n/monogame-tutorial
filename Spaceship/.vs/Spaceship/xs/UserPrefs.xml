@@ -4,8 +4,10 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Spaceship/Ship.cs">
     <Files>
-      <File FileName="Spaceship/Game1.cs" Line="54" Column="25" />
-      <File FileName="Spaceship/Ship.cs" Line="14" Column="28" />
+      <File FileName="Spaceship/Game1.cs" Line="72" Column="45" />
+      <File FileName="Spaceship/Ship.cs" Line="34" Column="14" />
+      <File FileName="Spaceship/Asteroid.cs" Line="24" Column="1" />
+      <File FileName="Spaceship/Controller.cs" Line="35" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

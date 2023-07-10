@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WvnTaWtI84s0d3IWj66ie6l4rL8i3Ua1ysFbhs0YOkxElvGxkcX2jsDSksB41jl7FQAEkaH4QfX3WILvfgy76w==",
+  "success": true,
+  "projectFilePath": "/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/RPG.csproj",
+  "expectedPackageFiles": [
+    "/Users/praveenr/.nuget/packages/comora/0.5.0/comora.0.5.0.nupkg.sha512",
+    "/Users/praveenr/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/Users/praveenr/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
