@@ -11,8 +11,11 @@ namespace RPG
 		private int speed = 300;
 		private Dir direction = Dir.Down;
 		private bool isMoving = false;
+        private KeyboardState kStateOld = Keyboard.GetState();
 
         public SpriteAnimation anim;
+        public SpriteAnimation[] animations = new SpriteAnimation[4];
+        public bool dead = false;
 
 		public Vector2 Position
 		{
@@ -21,6 +24,7 @@ namespace RPG
 				return position;
 			}
 		}
+
 
 		public void setX(float newX)
 		{
@@ -62,26 +66,75 @@ namespace RPG
                 isMoving = true;
             }
 
+
+            if (kState.IsKeyDown(Keys.Space))
+            {
+                isMoving = false;
+            }
+
+            if (dead)
+                isMoving = false;
+
 			if (isMoving)
 			{
                 switch (direction)
                 {
                     case Dir.Right:
-                        position.X += speed * dt;
+                        if (position.X < 1275)
+                            position.X += speed * dt;
                         break;
                     case Dir.Left:
-                        position.X -= speed * dt;
+                        if (position.X > 225)
+                            position.X -= speed * dt;
                         break;
                     case Dir.Up:
-                        position.Y -= speed * dt;
+                        if (position.Y > 200)
+                            position.Y -= speed * dt;
                         break;
                     case Dir.Down:
-                        position.Y += speed * dt;
+                        if (position.Y < 1250)
+                            position.Y += speed * dt;
                         break;
                 }
             }
+
+            anim = animations[(int)direction];
+
+            //switch (direction)
+            //{
+            //    case Dir.Down:
+            //        anim = animations[0];
+            //        break;
+            //    case Dir.Up:
+            //        anim = animations[1];
+            //        break;
+            //    case Dir.Left:
+            //        anim = animations[2];
+            //        break;
+            //    case Dir.Right:
+            //        anim = animations[3];
+            //        break;
+            //}
+
             anim.Position = new Vector2(position.X - 48, position.Y - 48);
-            anim.Update(gameTime);
+            if (kState.IsKeyDown(Keys.Space))
+            {
+                anim.setFrame(0);
+            }
+            else if (isMoving)
+            {
+                anim.Update(gameTime);
+            } else
+            {
+                anim.setFrame(1);
+            }
+
+            // Shoot Projectiles
+            if (kState.IsKeyDown(Keys.Space) && kStateOld.IsKeyUp(Keys.Space))
+            {
+                Projectile.projectiles.Add(new Projectile(position, direction));
+            }
+            kStateOld = kState;
         }
     }
 }
