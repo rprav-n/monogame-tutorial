@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 
 using Comora;
 
@@ -12,6 +14,12 @@ public enum Dir
     Up,
     Left,
     Right
+}
+
+public static class MySounds
+{
+    public static SoundEffect projectileSound;
+    public static Song bgMusic;
 }
 
 public class Game1 : Game
@@ -66,12 +74,19 @@ public class Game1 : Game
         ball = Content.Load<Texture2D>("ball");
         skull = Content.Load<Texture2D>("skull");
 
+        MySounds.projectileSound = Content.Load<SoundEffect>("Sounds/blip");
+        MySounds.bgMusic = Content.Load<Song>("Sounds/nature");
+       
+        MediaPlayer.Play(MySounds.bgMusic);
+
         player.animations[0] = new SpriteAnimation(walkDown, 4, 8);
         player.animations[1] = new SpriteAnimation(walkUp, 4, 8);
         player.animations[2] = new SpriteAnimation(walkLeft, 4, 8);
         player.animations[3] = new SpriteAnimation(walkRight, 4, 8);
 
         player.anim = player.animations[0];
+
+
 
         //Enemy.enemies.Add(new Enemy(new Vector2(100, 100), skull));
         //Enemy.enemies.Add(new Enemy(new Vector2(700, 500), skull));

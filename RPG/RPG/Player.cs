@@ -132,6 +132,7 @@ namespace RPG
             // Shoot Projectiles
             if (kState.IsKeyDown(Keys.Space) && kStateOld.IsKeyUp(Keys.Space))
             {
+                MySounds.projectileSound.Play(1f, 0.5f, 0f);
                 Projectile.projectiles.Add(new Projectile(position, direction));
             }
             kStateOld = kState;

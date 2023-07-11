@@ -32,3 +32,6 @@
 /Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/obj/Debug/net6.0/RPG.genruntimeconfig.cache
 /Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/obj/Debug/net6.0/ref/RPG.dll
 /Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/bin/Debug/net6.0/Comora.dll
+/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/bin/Debug/net6.0/Content/Sounds/blip.xnb
+/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/bin/Debug/net6.0/Content/Sounds/nature.ogg
+/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/bin/Debug/net6.0/Content/Sounds/nature.xnb

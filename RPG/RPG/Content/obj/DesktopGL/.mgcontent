@@ -12,8 +12,12 @@
     <File>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/Player/walkRight.png</File>
     <File>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/Player/walkUp.png</File>
     <File>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/skull.png</File>
+    <File>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/Sounds/blip.wav</File>
+    <File>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/Sounds/nature.ogg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/Sounds/nature.ogg</SourceFile>
+  <SourceTime>2023-07-11T22:39:07.4813142+05:30</SourceTime>
+  <DestFile>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/bin/DesktopGL/Content/Sounds/nature.xnb</DestFile>
+  <DestTime>2023-07-11T22:44:50.6388487+05:30</DestTime>
+  <Importer>OggImporter</Importer>
+  <ImporterTime>2022-07-26T17:14:56+05:30</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2022-07-26T17:14:56+05:30</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>/Users/praveenr/Documents/Github/monogame-tutorial/RPG/RPG/Content/bin/DesktopGL/Content/Sounds/nature.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>
